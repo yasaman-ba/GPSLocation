@@ -1,0 +1,100 @@
+
+02/12 00:15:14: Launching app
+No apk changes detected since last installation, skipping installation of C:\Users\kian raya\AndroidStudioProjects\GPSLocationApp\app\build\outputs\apk\debug\app-debug.apk
+$ adb shell am force-stop com.gpslocationapp.yasaman.gpslocationapp
+$ adb shell am start -n "com.gpslocationapp.yasaman.gpslocationapp/com.gpslocationapp.yasaman.gpslocationapp.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -D
+Waiting for application to come online: com.gpslocationapp.yasaman.gpslocationapp | com.gpslocationapp.yasaman.gpslocationapp.test
+Waiting for application to come online: com.gpslocationapp.yasaman.gpslocationapp | com.gpslocationapp.yasaman.gpslocationapp.test
+Connecting to com.gpslocationapp.yasaman.gpslocationapp
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ActivityThread: Application com.gpslocationapp.yasaman.gpslocationapp is waiting for the debugger on port 8100...
+I/System.out: Sending WAIT chunk
+I/zygote64: Debugger is active
+I/System.out: Debugger has connected
+I/System.out: waiting for debugger to settle...
+Connected to the target VM, address: 'localhost:8600', transport: 'socket'
+I/chatty: uid=10196(u0_a196) com.gpslocationapp.yasaman.gpslocationapp identical 8 lines
+I/System.out: waiting for debugger to settle...
+I/System.out: debugger has settled (1482)
+D/HwFLClassLoader: get used feature list :/feature/used-list failed!
+                   USE_FEATURE_LIST had not init! 
+I/MultiDex: VM with version 2.1.0 has multidex support
+            Installing application
+            VM has multidex support, MultiDex support library is disabled.
+I/FirebaseInitProvider: FirebaseApp initialization unsuccessful
+E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+E/Minikin: Could not get cmap table size!
+I/HwCust: Constructor found for class android.app.HwCustActivityImpl
+D/HwCust: Create obj success use class android.app.HwCustActivityImpl
+V/HwPolicyFactory: : success to get AllImpl object and return....
+I/HwCust: Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+D/HwCust: Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+V/HwWidgetFactory: : successes to get AllImpl object and return....
+V/ActivityThread: ActivityThread,callActivityOnCreate
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+W/Utils: Utils_isSuperResolutionSupport [load libai_client.so failed]
+D/HwGalleryCacheManagerImpl: mIsEffect:false
+D/HwRTBlurUtils: check blur style for HwPhoneWindow, themeResId : 0x7f0e0005, context : com.gpslocationapp.yasaman.gpslocationapp.MainActivity@746a65, Nhwext : 0, get Blur : disable with , null
+D/ActivityThread: add activity client record, r= ActivityRecord{33e6423 token=android.os.BinderProxy@b533534 {com.gpslocationapp.yasaman.gpslocationapp/com.gpslocationapp.yasaman.gpslocationapp.MainActivity}} token= android.os.BinderProxy@b533534
+I/HwSecImmHelper: mSecurityInputMethodService is null
+D/OpenGLRenderer:   HWUI Binary is  enabled
+D/OpenGLRenderer: HWUI GL Pipeline
+I/PressGestureDetector: HiTouch restricted: AboardArea.
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 2
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+I/zygote64: Do partial code cache collection, code=30KB, data=26KB
+            After code cache collection, code=30KB, data=26KB
+            Increasing code cache capacity to 128KB
+W/InputMethodManager: startInputReason = 1
+D/TAG: We are connected to user location
+W/View: dispatchProvideAutofillStructure(): not laid out, ignoring
+I/AssistStructure: Flattened final assist data: 3632 bytes, containing 1 windows, 12 views
+W/InputMethodManager: startInputReason = 5
+I/hwaps: JNI_OnLoad
+W/Settings: mValues not put! needsGenerationTracker: true currentGeneration: -1 name: enable_navbar value: null
+I/HwSecImmHelper: mSecurityInputMethodService is null
+I/zygote64: Do partial code cache collection, code=61KB, data=60KB
+            After code cache collection, code=61KB, data=60KB
+I/zygote64: Increasing code cache capacity to 256KB
+W/InputMethodManager: startInputReason = 4
+I/HwSecImmHelper: mSecurityInputMethodService is null
+I/zygote64: Do full code cache collection, code=121KB, data=107KB
+I/zygote64: After code cache collection, code=106KB, data=65KB
+W/InputMethodManager: startInputReason = 4
+I/HwSecImmHelper: mSecurityInputMethodService is null
+V/InputMethodManager: Reporting focus gain, without startInput
+I/HwSecImmHelper: mSecurityInputMethodService is null
+V/AudioManager: playSoundEffect   effectType: 0
+D/HwRTBlurUtils: check blur style for HwToast-Toast, themeResId : 0x7f0e0005, context : com.gpslocationapp.yasaman.gpslocationapp.MainActivity@746a65, Nhwext : 6, get Blur : disable with , android.graphics.drawable.NinePatchDrawable@7e4326a
+D/HwRTBlurUtils: check blur style for HwToast-Toast, themeResId : 0x7f0e0005, context : com.gpslocationapp.yasaman.gpslocationapp.MainActivity@746a65, Nhwext : 6, get Blur : disable with , android.graphics.drawable.NinePatchDrawable@e23a4d1
+W/System.err: java.io.IOException: grpc failed
+                  at android.location.Geocoder.getFromLocationName(Geocoder.java:178)
+                  at com.gpslocationapp.yasaman.gpslocationapp.MainActivity$1.onClick(MainActivity.java:108)
+                  at android.view.View.performClick(View.java:6291)
+                  at android.view.View$PerformClick.run(View.java:24931)
+                  at android.os.Handler.handleCallback(Handler.java:808)
+                  at android.os.Handler.dispatchMessage(Handler.java:101)
+                  at android.os.Looper.loop(Looper.java:166)
+                  at android.app.ActivityThread.main(ActivityThread.java:7425)
+                  at java.lang.reflect.Method.invoke(Native Method)
+W/System.err:     at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245)
+                  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921)
+D/OpenGLRenderer:   HWUI Binary is  enabled
+W/ViewRootImpl[Toast]: EGLdebug relayoutWindow Surface isSurface(name=null)  (appName =com.gpslocationapp.yasaman.gpslocationapp) ( mSurfaceControllerIsValid =false) (mNativeObject  =0)/@0x4c94b3c,viewVisibility is0
+W/ViewRootImpl[Toast]: EGLdebug relayoutWindow Surface isSurface(name=null)  (appName =com.gpslocationapp.yasaman.gpslocationapp) ( mSurfaceControllerIsValid =true) (mNativeObject  =7b96de8000)/@0x4c94b3c,relayoutResult is7
+W/ViewRootImpl[Toast]: EGLdebug Surface isSurface(name=null)  (appName =com.gpslocationapp.yasaman.gpslocationapp) ( mSurfaceControllerIsValid =true) (mNativeObject  =7b96de8000)/@0x4c94b3c
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+W/libEGL: EGLNativeWindowType 0x7b96de8010 disconnect failed
+D/OpenGLRenderer:   HWUI Binary is  enabled
+W/ViewRootImpl[Toast]: EGLdebug relayoutWindow Surface isSurface(name=null)  (appName =com.gpslocationapp.yasaman.gpslocationapp) ( mSurfaceControllerIsValid =false) (mNativeObject  =0)/@0xf7ddf28,viewVisibility is0
+W/ViewRootImpl[Toast]: EGLdebug relayoutWindow Surface isSurface(name=null)  (appName =com.gpslocationapp.yasaman.gpslocationapp) ( mSurfaceControllerIsValid =true) (mNativeObject  =7b96de8000)/@0xf7ddf28,relayoutResult is7
+W/ViewRootImpl[Toast]: EGLdebug Surface isSurface(name=null)  (appName =com.gpslocationapp.yasaman.gpslocationapp) ( mSurfaceControllerIsValid =true) (mNativeObject  =7b96de8000)/@0xf7ddf28
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+W/libEGL: EGLNativeWindowType 0x7b96de8010 disconnect failed
+I/zygote64: Do partial code cache collection, code=123KB, data=105KB
+I/zygote64: After code cache collection, code=123KB, data=105KB
+            Increasing code cache capacity to 512KB
